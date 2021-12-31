@@ -12,4 +12,4 @@ RUN npm install
 COPY app .
 
 EXPOSE 8000
-ENTRYPOINT ["npx", "nodemon", "/app/server.js"]
+ENTRYPOINT ["npx", "nodemon", "/app/server.js"
